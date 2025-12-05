@@ -1,3 +1,11 @@
 spring:
     application:
-        name: recommend-activity-service
+        name: recommend-recommend-service
+    threads:
+        virtual:
+            enabled: true
+    kafka:
+        bootstrap-servers: localhost:9092
+        consumer:
+            group-id: content-platform-group
+            auto-offset-reset: earliest

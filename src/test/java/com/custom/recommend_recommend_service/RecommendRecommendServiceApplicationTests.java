@@ -1,10 +1,10 @@
-package com.custom.recommend_activity_service;
+package com.custom.recommend_recommend_service;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class RecommendActivityServiceApplicationTests {
+class RecommendRecommendServiceApplicationTests {
 
 	@Test
 	void contextLoads() {
